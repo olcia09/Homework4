@@ -1,0 +1,51 @@
+#counter > h1 {
+    font-size: 124px;
+    text-align: center;
+    margin: 0;
+        
+}
+
+.counter-buttons {
+    font-size: 92px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+     
+}
+
+.counter-buttons > div {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    padding: 15px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+       
+         
+}
+
+.counter-buttons > div:hover  {
+    background-color: purple;
+}
+
+#counter {
+    width: 240px;
+    height: 270px;
+    margin: 10px;
+}
+
+#container { 
+    height: 100%;   
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body, html {
+    height: 100%;
+}
